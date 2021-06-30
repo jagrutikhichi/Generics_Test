@@ -25,13 +25,9 @@ public class MinMax {
 	      toPrint(maxfloat);	     
 	      toPrint(maxint);
 	   }
-	private static void toPrint(Float maxfloat) {
-		System.out.println(maxfloat);
+	private static <E> void toPrint(E maxfloat) {
 		
-	}
-
-	private static void toPrint(Integer maxint) {
-		System.out.println(maxint);
+		System.out.println(maxfloat);
 		
 	}
 
